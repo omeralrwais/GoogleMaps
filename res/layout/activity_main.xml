@@ -15,21 +15,21 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
-    <!--  <Button
+      <Button
         android:id="@+id/btnShowLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="32dp"
-        android:text="Show My Location" /> -->
+        android:text="Show My Location" /> 
 
       
-     <fragment 
+      <!--  <fragment 
           android:id="@+id/map"
           android:name="com.google.android.gms.maps.MapFragment"
           android:layout_below="@+id/textView1" 
           android:layout_width="match_parent"
-          android:layout_height="match_parent"/>
+          android:layout_height="match_parent"/> -->
      
      <!--  android:name="com.google.android.gms.maps.MapFragment"
            xmlns:android="http://schemas.android.com/apk/res/android"

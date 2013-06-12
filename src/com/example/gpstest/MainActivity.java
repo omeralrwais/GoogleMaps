@@ -20,10 +20,10 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		//btnShowLocation = (Button) findViewById(R.id.btnShowLocation);
+		btnShowLocation = (Button) findViewById(R.id.btnShowLocation);
         
-        // show location button click event
-       /* btnShowLocation.setOnClickListener(new View.OnClickListener() {
+         //show location button click event
+        btnShowLocation.setOnClickListener(new View.OnClickListener() {
              
             @Override
             public void onClick(View arg0) {        
@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
                 }
                  
             }
-        });*/
+        });
 	}
 
     
